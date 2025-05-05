@@ -1,0 +1,167 @@
+.maincalss {
+    height: 100vh;
+}
+
+.homepage_top {
+    box-shadow: #dcdfe6 10px 10px 15px 5px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+.homepage_toplogo {
+    height: 70%;
+    width: 70%;
+    background-image: url(./logo.png);
+    background-size: 100%, auto;
+    /*此处被拉伸，宽、高，参数可以使用auto替代*/
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.el-row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    width: 100%;
+}
+
+.index_content_bigtitle {
+    font-size: 75px;
+    font-weight: 800;
+    color: #081642;
+    line-height: 1.2em;
+}
+
+.index_content_smalltitle {
+    font-size: 21px;
+    color: #1d2b5a;
+    margin-top: 15px;
+}
+
+.homepage_content {
+    height: 90vh;
+}
+
+.index_main {
+    height: 100%;
+}
+
+.index_main_top {
+    height: 100%;
+}
+
+.index_main_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.index_main_16 {
+    display: flex;
+    align-items: center;
+    /*实现上下居中*/
+    justify-content: center;
+    /*实现文字换行居中*/
+}
+
+.index_content_butgroup {
+    margin-top: 5%;
+}
+
+
+.index_content_but {
+    width: 180px;
+}
+
+
+.index_mid_context {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.index_low {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.index_low_title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.index_low_titlesub {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.index_low_but01,
+.index_low_svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.index_low_sub {
+    width: 100%;
+}
+
+.index_low_butclass {
+    width: 30%;
+}
+
+.index_low_second {
+    height: 10vh;
+}
+
+body::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 10px;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+}
+
+body::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #87b9f09a;
+}
+
+body::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: #EDEDED;
+}
+
+
+.resource_aside_col3{
+    /* position: fixed; */
+    height: 100%;
+}
+
+.resource_aside_meun{
+    height: 100%;
+}
+
+.el-menu-vertical-demo{
+    height: 100%;
+}
+
+.el-upload-dragger{
+    width: 720px !important;
+  }
+  
+  .el-upload__input{
+    display: none !important;
+  }

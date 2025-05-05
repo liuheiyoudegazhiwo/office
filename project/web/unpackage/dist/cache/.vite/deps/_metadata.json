@@ -1,0 +1,37 @@
+{
+  "hash": "a06ede7a",
+  "configHash": "44c25737",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "157f35e3",
+  "optimized": {
+    "element-plus": {
+      "src": "../../../../../node_modules/element-plus/es/index.mjs",
+      "file": "element-plus.js",
+      "fileHash": "296ead9e",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../../../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "e7d8c028",
+      "needsInterop": false
+    },
+    "@tencentcloud/roomkit-web-vue3": {
+      "src": "../../../../../node_modules/@tencentcloud/roomkit-web-vue3/es/index.mjs",
+      "file": "@tencentcloud_roomkit-web-vue3.js",
+      "fileHash": "9a9c7c01",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "index.vue-RAB5NQZ4": {
+      "file": "index__vue-RAB5NQZ4.js"
+    },
+    "chunk-XGGGNUJG": {
+      "file": "chunk-XGGGNUJG.js"
+    },
+    "chunk-ANIWD3T6": {
+      "file": "chunk-ANIWD3T6.js"
+    }
+  }
+}

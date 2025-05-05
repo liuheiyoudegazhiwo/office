@@ -1,0 +1,68 @@
+//侧菜单的菜单数据模型
+export function report_fun() {
+    let arr = [
+            {
+                result01:'昆明市政务服务大厅',
+                result02:'1532',
+                result03:'99%',
+                result04:1,
+                grade:99
+            },{
+                result01:'五华区政务服务大厅',
+                result02:'1341',
+                result03:'99%',
+                result04:2,
+                grade:99
+            },{
+                result01:'西山区政务服务大厅',
+                result02:'1124',
+                result03:'99%',
+                result04:3,
+                grade:99
+            },{
+               result01:'官渡区政务服务大厅',
+                result02:'952',
+                result03:'99%',
+                result04:4,
+                grade:99
+            },{
+                result01:'呈贡区政务服务大厅',
+                result02:'944',
+                result03:'99%',
+                result04:5,
+                grade:99
+            },{
+                result01:'盘龙区政务服务大厅',
+                result02:'847',
+                result03:'99%',
+                result04:6,
+                grade:99
+            },{
+                result01:'嵩明县政务服务大厅',
+                result02:'651',
+                result03:'99%',
+                result04:7,
+                grade:99
+            },{
+                result01:'空港新区政务服务大厅',
+                result02:'211',
+                result03:'98%',
+                result04:8,
+                grade:99
+            },{
+                result01:'安宁市政务服务大厅',
+                result02:'199',
+                result03:'97%',
+                result04:9,
+                grade:99
+            },{
+                result01:'晋宁区政务服务大厅',
+                result02:'187',
+                result03:'96%',
+                result04:10,
+                grade:99
+            }
+    ]
+
+    return arr
+}
